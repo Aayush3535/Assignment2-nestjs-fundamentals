@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background-color: #ff5733;
+    background-color: #f67342;
     color:white;
     padding: 10px 5%;
 }
@@ -45,7 +45,7 @@ li a{
 }
 
 .hero-section{
-    background: linear-gradient(#ff7e5f, #feb47b);
+    background: linear-gradient(#f67949, #f57D50, #f6956f, #f79874, #f7a686);
     color: white;
     display: flex;
     align-items: center;
@@ -85,3 +85,4 @@ li a{
   height: 100%;
   object-fit: cover;
 }
+
