@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background-color: #f67342;
+    background-color: #ff5733;
     color:white;
     padding: 10px 5%;
 }
@@ -44,8 +44,8 @@ li a{
     cursor: pointer;
 }
 
-.hero-section{
-    background: linear-gradient(#f67949, #f57D50, #f6956f, #f79874, #f7a686);
+.section-left{
+    background: linear-gradient(#ff7e5f, #feb47b);
     color: white;
     display: flex;
     align-items: center;
@@ -69,10 +69,10 @@ li a{
 }
 
 
-.digonal-container{
+.section-right{
   width: 400px; 
   height: 400px;
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(71% 0, 100% 25%, 100% 73%, 77% 100%, 0% 50%);
   overflow: hidden; 
   background-color: #ff7f50; 
   display: flex;
@@ -80,7 +80,94 @@ li a{
   align-items: center;
 }
 
-.diagonal-container img {
+.section-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header{
+    background-color: #ff5733;
+    color:white;
+    padding: 10px 5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    color: white;
+    margin: 0 15px;
+}
+
+.buy-now, .buy-button{
+    background-color: black;
+    color: wheat;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section-left{
+    background: linear-gradient(#ff7e5f, #feb47b);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 100px 5%;
+    position: relative;
+}
+
+.hero-content{
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-content h1{
+    font-size: 2.5rem;
+}
+
+.hero-content p{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.section-right{
+  width: 400px; 
+  height: 400px;
+  clip-path: polygon(71% 0, 100% 25%, 100% 73%, 77% 100%, 0% 50%);
+  overflow: hidden; 
+  background-color: #ff7f50; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-right img {
   width: 100%;
   height: 100%;
   object-fit: cover;
